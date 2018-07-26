@@ -1,0 +1,22 @@
+{
+  "name": "js-node-serverless-graphql-aws-dynamo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --source-maps --presets env",
+    "start": "npm run build && nodemon dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.281.1",
+    "graphql": "^0.13.2"
+  }
+}
